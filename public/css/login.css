@@ -1,0 +1,20 @@
+main form{
+    border: solid 2px grey;
+    margin: 50px 150px 50px 150px;
+    padding-bottom: 30px;
+    background-color: lightgray;
+    box-shadow:lightgray;
+    border-radius: 5px;
+}
+
+.nombre{
+    margin-bottom: 20px;
+}
+
+.password{
+    margin-bottom: 20px;
+}
+
+.buttom{
+    margin-bottom: 20px;
+}

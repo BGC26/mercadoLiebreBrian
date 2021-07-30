@@ -1,0 +1,12 @@
+main form div{
+    margin-top: 30px;
+}
+
+main form{
+    border: solid 2px grey;
+    margin: 20px 100px 20px 100px;
+    padding-bottom: 30px;
+    background-color: lightgray;
+    box-shadow:lightgray;
+    border-radius: 5px;
+}
