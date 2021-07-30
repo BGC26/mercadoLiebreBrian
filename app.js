@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const publicPath = path.resolve (__dirname, "./public");
 
-app.listen(3030, ()=>{
+app.listen(process.env.PORT || 3030, function() {
     console.log("La app esta funcionando en http://localhost:3030");
 });
 
