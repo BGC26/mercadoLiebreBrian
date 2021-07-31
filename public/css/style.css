@@ -13,6 +13,7 @@ header{
     font-family: "roboto", sans-serif;
     background-color: gold;
     height: auto;
+    width: 100vw;
 }
 
 .contenedor-1{
@@ -25,6 +26,7 @@ header{
 .top-header{
     display: flex;
     width: 100%;
+    text-align: center;
 }
 
 .logmarket{
@@ -71,8 +73,23 @@ nav{
     position: relative;
 }
 
+nav ul li a:link{
+    color: black;
+    text-decoration-line: none;
+}
+
+nav ul li a:active{
+    color: black;
+    text-decoration-line: none;
+}
+
+nav ul li a:visited{
+    color: black;
+    text-decoration-line: none;
+}
+
 nav ul li a:hover{
-    color: blue;
+    color: #1259c3;
 }
 
 nav ul li{
@@ -125,9 +142,8 @@ nav ul li{
 
 .contenedor-2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
     position: relative;
 }
 
@@ -135,6 +151,7 @@ nav ul li{
     font-size: 24px;
     text-align: left;
     opacity: 0.7;
+    margin-bottom: 10px;
 }
 
 main{
@@ -147,8 +164,14 @@ main{
 .item {
     background-color: white;
     border-top: #ebebeb;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
     padding: 15px;
+    position:relative;
+    flex-wrap: wrap;
+    display: inline-block;
+    flex-direction: row;
+    width: 23%;
 }
 
 .item img{
@@ -209,10 +232,23 @@ p {
 
 
 
-.contenedor-3
+footer{
+    font-family: "roboto", sans-serif;
+    background-color: gold;
+    height: 600px;
+    width: 100vw;
+}
+
+.contenedor-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
 
 .articulos {
-    margin-top: 50px;
+    margin-top: 30px;
+    padding: 15px;
     text-align: center;
 }
 
@@ -222,20 +258,77 @@ p {
 
 .tarjeta {
     font-size: 2em;
-    color: blue;
+    color: #1259c3;
     margin-bottom: -10px;
+}
+
+.tarjeta i:link{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.tarjeta i:active{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.tarjeta i:visited{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.tarjeta i:hover{
+    color: #0022AA;
 }
 
 .regalo {
     font-size: 2em;
-    color: blue;
+    color: #1259c3;
     margin-bottom: -10px;
+}
+
+.regalo i:link{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.regalo i:active{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.regalo i:visited{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.regalo i:hover{
+    color: #0022AA;
 }
 
 .security {
     font-size: 2em;
-    color: blue;
+    color: #1259c3;
     margin-bottom: -10px;
+}
+
+.security i:link{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.security i:active{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.security i:visited{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.security i:hover{
+    color: #0022AA;
 }
 
 .copyright{
