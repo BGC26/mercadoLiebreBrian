@@ -1,0 +1,375 @@
+/* Version 1 */
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header{
+    font-family: "roboto", sans-serif;
+    background-color: gold;
+    height: auto;
+    width: 100vw;
+}
+
+.contenedor-1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.top-header{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.logmarket{
+    max-width: 350px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.top-header form{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+header input{
+    font-size: 15px;
+    width: 250px;
+    border: solid 1px rgb(100, 100, 100);
+    border-radius: 5px;
+}
+
+.top-header form i{
+    background-color: white;
+    border: solid 1px black;
+    padding: 1px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.top-header h4 i{
+    margin-right: 5px;
+}
+
+.compra{
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+nav{
+    display: none;
+    width: 100%;
+    position: relative;
+}
+
+nav ul li a:link{
+    color: black;
+    text-decoration-line: none;
+}
+
+nav ul li a:active{
+    color: black;
+    text-decoration-line: none;
+}
+
+nav ul li a:visited{
+    color: black;
+    text-decoration-line: none;
+}
+
+nav ul li a:hover{
+    color: #1259c3;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-left{
+    font-weight: bold;
+    width: 50%;
+    padding: 10px 10px;
+    float: left;
+    text-align: center;
+    flex-direction: row;
+}
+
+.nav-right{
+    font-weight: bold;
+    width: 50%;
+    padding: 10px 10px;
+    float: right;
+    text-align: center;
+    flex-direction: row;
+}
+
+.nav-right i{
+    margin-left: 5px;
+}
+
+.burger-menu i{
+    font-size: 18px;
+    color: #fff;
+    max-width: 40px;
+    background-color: #1259c3;
+    border: solid 3px #1259c3;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.publicidad{
+    width: 100vw;
+    position: relative;
+}
+
+
+
+
+.contenedor-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.titulares{
+    font-size: 20px;
+    color: #f6f4d2;
+    background-color: #335c67;
+    text-align: center;
+    opacity: 0.7;
+    border: solid 1px rgb(100, 100, 100);
+    margin-bottom: 10px;
+    box-shadow: 5px;
+    width: 25%;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ebebeb;
+} 
+
+.item {
+    background-color: white;
+    border-top: #ebebeb;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    padding: 15px;
+    position:relative;
+    flex-wrap: wrap;
+    display: inline-block;
+    flex-direction: row;
+    width: 23%;
+}
+
+.item img{
+    display:block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.description{
+    position: relative;
+    border-top: solid 1px #ebebeb;
+    text-align: start;
+}
+
+.description i{
+    display: block;
+    font-size: 16px;
+    color: #39b54a;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;    
+    top: -15px;
+}
+
+.precio-discount{
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.precio {
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount {
+    font-size: 16px;
+    color:#39b54a;
+    width: 70%;
+}
+
+.item-title{
+    font-size: 16px;
+    opacity: 0.7;
+    display: none;
+}
+
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+footer{
+    font-family: "roboto", sans-serif;
+    background-color: gold;
+    height: 600px;
+    width: 100vw;
+}
+
+.contenedor-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.articulos {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+.articulos-title{
+    font-size: 16px;
+}
+
+.tarjeta {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: -10px;
+}
+
+.tarjeta i:link{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.tarjeta i:active{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.tarjeta i:visited{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.tarjeta i:hover{
+    color: #0022AA;
+}
+
+.regalo {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: -10px;
+}
+
+.regalo i:link{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.regalo i:active{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.regalo i:visited{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.regalo i:hover{
+    color: #0022AA;
+}
+
+.security {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: -10px;
+}
+
+.security i:link{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.security i:active{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.security i:visited{
+    color: #1259c3;
+    text-decoration-line: none;
+}
+
+.security i:hover{
+    color: #0022AA;
+}
+
+.copyright{
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+
+@media (min-width: 480px) {
+    .top-header{
+        display: block;
+    }
+
+    nav{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .item-title{
+        display: block;
+    }
+    .item{
+        display: block;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .img{
+        display: block;
+    }
+
+}
+
+@media (min-width: 361px) {
+    .top-header{
+        display: flex;
+        justify-content: space-between;
+    }
+}
